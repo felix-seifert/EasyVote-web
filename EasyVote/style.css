@@ -1,0 +1,487 @@
+  *{margin:0px;}
+
+/* In diesem Abschnitt werden die Flexboxen definiert, die dafür sorgen, dass das Seitendesign korrekt dargestellt wird ist!*/  
+
+body{
+	font-family: Arial,sans-serif;
+    margin: 0; padding: 0;
+    min-width: 50em;
+}
+
+/* Sorgt dafür, dass sich die Schriftgröße je nach Breite des Browsers verändert */
+@media screen and (min-width: 200px) {
+  body {
+    font-size: 0.75em;
+  }
+ }
+
+@media screen and (min-width: 880px) {
+  body {
+    font-size: 0.75em;
+  }
+ }
+ 
+ @media screen and (min-width: 1000px) {
+  body {
+    font-size: 0.87em;
+  }
+ }
+
+@media screen and (min-width: 1150px) {
+  body {
+    font-size: 1em;
+  }
+ }
+ 
+ @media screen and (min-width: 1400px) {
+  body {
+    font-size: 1.2em;
+  }
+ }
+ 
+  
+#headerForm{
+	display: -webkit-box; /* Safari */
+	display: -webkit-flex; /* Chrome */
+	display: -ms-flexbox; /* Internet Explorer */
+	display: -o-flex;
+    display: flex;
+	min-width: 500px;
+	min-height: 35px;
+	height: 35px;
+}
+
+#complete{
+	display:-webkit-flex;
+	display:flex;
+	-webkit-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+}
+
+#main {
+    display: -webkit-box; /* Safari */
+	display: -webkit-flex; /* Chrome */
+    display: -ms-flex;
+	display: -o-flex;
+    display: flex;
+
+	min-width: 500px;
+}
+
+#complete{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+#Header2{
+	-webkit-flex-basis: 20%;
+    flex-basis: 20%;
+	min-width: 200px;
+	padding:3px;
+	font-size: 0.9em; 
+	background:-webkit-linear-gradient(#BEDBEE, white); /* für ältere Versionen von Safari & Chrome */
+	background:-o-linear-gradient(#BEDBEE, white); /* für ältere Versionen von Opera */
+	background:-moz-linear-gradient(#BEDBEE, white); /* für ältere Versionen von Firefox */
+	background:-ms-linear-gradient(#BEDBEE, white); /* für ältere Versionen von dem Internet Explorer */
+	background:linear-gradient(#BEDBEE, white); /*aktuelle Syntax*/
+}
+
+#Header1{
+	-webkit-flex-basis: 80%;
+    flex-basis: 80%;
+	padding:3px;
+	min-width: 680px;
+	font-size: 0.9em;
+	background: #366581;
+	color: #FFFFFF;
+	
+}
+
+#Header3{
+	-webkit-flex-basis: 80%;
+    flex-basis: 80%;
+	padding:3px;
+	font-size: 0.9em; 
+	background: #FFFFFF;
+	
+}
+
+#Inhalt {
+    -webkit-flex-basis: 60%;
+    flex-basis: 60%;
+	-webkit-order: 2;
+	order: 2;
+	min-width: 480px;
+	height:96%;
+}
+
+#Startseite {
+    -webkit-flex-basis: 80%;
+    flex-basis: 80%;
+	-webkit-order: 1;
+	order: 1;
+	min-width: 480px;
+	height:96%;
+	color: #366581;
+}
+	
+#Navigation,
+#Info {
+    -webkit-flex-basis: 20%;
+    flex-basis: 20%;
+	min-width: 200px;
+	padding:3px;
+}
+
+#Navigation{
+-webkit-order: 1;
+  order: 1;
+  padding:3px;
+  font-family: Arial,sans-serif;
+    font-size: 16px;
+	background:-webkit-linear-gradient(#BEDBEE, white); /* für ältere Versionen von Safari & Chrome */
+	background:-o-linear-gradient(#BEDBEE, white); /* für ältere Versionen von Opera */
+	background:-moz-linear-gradient(#BEDBEE, white); /* für ältere Versionen von Firefox */
+	background:-ms-linear-gradient(#BEDBEE, white); /* für ältere Versionen von dem Internet Explorer */
+	background:linear-gradient(#BEDBEE, white); /*aktuelle Syntax*/
+}
+
+#Info{
+-webkit-order: 3;
+  order: 3;
+  padding:3px;
+   font-size: 0.9em;
+	background:-webkit-linear-gradient(#BEDBEE, white); /* für ältere Versionen von Safari & Chrome */
+	background:-o-linear-gradient(#BEDBEE, white); /* für ältere Versionen von Opera */
+	background:-moz-linear-gradient(#BEDBEE, white); /* für ältere Versionen von Firefox */
+	background:-ms-linear-gradient(#BEDBEE, white); /* für ältere Versionen von dem Internet Explorer */
+	background:linear-gradient(#BEDBEE, white); /*aktuelle Syntax*/
+	color: #366581;
+}
+   
+   
+/*In diesem Abschnitt werden die Layouts für die verschiedenen Buttons definiert*/
+.button {
+    color: #366581;
+	font-weight: normal;
+	padding:6px; 
+	margin: 6px;
+	width:90%; 
+	background: #E6E6E6;
+	display:inline-block; 
+	border-radius: 10px;
+	cursor: pointer;
+	border:solid 0.5px black;
+	box-shadow: 1px 1px 1px 1px #666;
+	text-align: left;
+	font-size: 1em;
+  } 
+  
+  .button_aktiv{
+    color: #FFFFFF;
+	font-weight: normal;
+	padding:6px; 
+	margin: 6px;
+	width:90%;
+	background: #366581;
+	display:inline-block; 
+	border-radius: 10px;
+	cursor: pointer;
+	border:solid 0.5px black;
+	box-shadow: 1px 1px 1px 1px #666;
+	font-size: 1em;
+	text-align: left;
+  } 
+  
+  .special_button {
+    color: #366581;
+	font-weight: normal;
+	padding:6px; 
+	margin: 6px;
+	width:90%; 
+	background: #E6E6E6;
+	display:inline-block; 
+	border-radius: 10px;
+	cursor: pointer;
+	border:solid 0.5px black;
+	box-shadow: 1px 1px 1px 1px #666;
+	text-align: center;
+	font-size: 1em;
+  } 
+  
+  .special_button_aktiv{
+    color: #FFFFFF;
+	font-weight: normal;
+	padding:6px; 
+	margin: 6px;
+	width:90%;
+	background: #366581;
+	display:inline-block; 
+	border-radius: 10px;
+	cursor: pointer;
+	border:solid 0.5px black;
+	box-shadow: 1px 1px 1px 1px #666;
+	font-size: 1em;
+	text-align: center;
+  } 
+  
+   .button2 {
+    color: #FFFFFF;
+	font-weight: normal;
+	padding:10px; 
+	background: #366581;
+	display:inline-block; 
+	border-radius: 14px;
+	cursor: pointer;
+	border:solid 0.5px black;
+	box-shadow: 1px 1px 1px 1px #666;
+	font-size: 1em;
+  }
+
+.text_button {
+   border: none;
+   background-color: transparent;
+   padding: 0;
+   color: #366581;  
+   font-size: 1.1em;
+}  
+
+.suchfenster{
+	width: 68%;
+	height: 80%;
+	font-weight: normal;
+	padding:2px 7px; 
+	display:inline-block; 
+	border-radius: 8px;
+	border:solid 0.5px black;
+	box-shadow: 1px 1px 1px 1px #666;
+	font-size: 1em;
+}
+
+.suchbutton{
+	width: 27%;
+	height: 80%;
+	font-weight: normal;
+	padding:1px; 
+	color: #366581;
+	background: #E6E6E6;
+	display:inline-block; 
+	border-radius: 8px;
+	cursor: pointer;
+	border:solid 0.5px black;
+	box-shadow: 1px 1px 1px 1px #666;
+	font-size: 1em;
+}
+  
+  
+/* Hier werden die restlichen Layouts definiert, die nichts mit den Flexboxen zu tun haben */
+
+  div#Login{
+	font-size: 1em;
+	padding: 2%;
+  }
+  
+  div#Login p {
+	color: #FF0000;
+	font-size: bold;
+  }
+  
+  div#Login form > fieldset {
+	padding: 1em;
+	font:80%/1 sans-serif;
+	border:1px solid black;
+  }
+  
+  div#Login fieldset {
+	padding: 0em;
+	font:80%/1 sans-serif;
+	border:none;
+	border-radius: 6px;
+  }
+  
+  div#Login label {
+	float:left;
+	margin-right:0.5em;
+	padding-top:0.2em;
+	text-align:left;
+	font-weight:bold;
+  }
+  
+  div#Login legend {
+	padding: 0.2em 0.5em;
+	border:1px solid black;
+	font-size:90%;
+	text-align:right;
+  }
+  
+  div#Datei_hochladen label{
+	width:15em;
+  }
+  
+  div#Wahl_laden label{
+	width:25em;
+  }
+
+  div#Abgabe{
+	padding: 2%;
+	color: #366581;
+	
+  }
+  
+  div#Abgabe form > fieldset{
+	padding: 1em;
+	font:80%/1 sans-serif;
+	border:1px solid #366581;
+	color: #366581;
+	border-radius: 6px;
+  }
+  
+  div#Abgabe fieldset{
+	border:none;
+  }
+  
+  div#Abgabe label {
+	float:left;
+	margin-right:0.5em;
+	padding-top:0.2em;
+	text-align:left;
+	font-weight:bold;
+	width: 19%;
+  }
+  
+  div#Abgabe legend {
+	padding: 0.2em 0.5em;
+	border:1px solid #366581;
+	font-size:90%;
+	text-align:right;
+	border-radius: 3px;
+  }
+  
+  div#Inhalt h1{
+	color: #366581;
+	margin-left:2%;
+	font-size: 40px;
+	padding: 10px 0px;
+  }
+  
+  div#Inhalt hr{
+	background-color: #366581;
+	height:5px;
+	margin-right:2%; 
+	margin-left:2%;
+  }
+  
+  div#Inhalt table{
+	border-collapse: collapse;
+	margin: 15px;
+	margin-left: 2%;
+  }
+  
+  div#Inhalt a{
+	text-decoration: none;
+	float: left;
+  }
+  
+  div#Inhalt th{
+    font-size: 0.9em;
+	color: #366581;
+	min-width: 2.5em;
+  } 
+  
+  div#Inhalt td{
+    font-size: 0.9em;
+	color: #366581;
+	min-width: 2.5em;
+  } 
+  
+  div#Inhalt p{
+	color: #366581;
+	padding: 0em 3em 1em 3em;
+	font-size: 1em;
+  }
+  
+  div#Navigation button {
+	font-weight: bold;
+	text-decoration: none;
+  }
+  
+  
+  div#Navigation li {
+    list-style: none;
+    padding: 3%;
+	font-weight:bold;
+	font-size: 1em;
+  }
+  
+  div#Navigation a:link{
+	font-weight: bold;
+	color: #366581;
+	text-decoration: none;
+	text-align: center;
+  }
+  
+  div#Startseite a:link{
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+  }
+  
+   div#Startseite li{
+	font-size: 1.15em;
+  }
+  
+  div#Startseite  h1{
+	font-weight: normal;
+	margin-top: -50px;
+	margin-left: 2%;
+	font-size: 2.5em;
+  }
+  
+  div#Header1 p{
+	padding: 3px 10px;
+	font-size: 1.2em;
+  }
+  
+  div#Header2 p{
+	padding: 4px 7px;
+	text-align: left;
+  }
+  
+  div#Startseite center{
+	margin-top: -20px;
+  }
+  
+  div#Info p, table{
+	padding: 7px;
+	font-size: 17px;
+	color: #366581;
+  }
+  
+  div#Info strong{
+	padding: 7px;
+	font-size: 18px;
+  }
+  
+  div#Inhalt del{
+	color: #FF0000;
+  }
+  
+  div#Tabelle td{
+	border-bottom: 1px solid #366581;
+  }
+  
+  div#Tabelle2 td{
+	border-bottom: 1px solid #366581;
+	border-top: 1px solid #366581;
+  }
+  
+  div#TabelleEuropa table,th{
+	font-size: 1em;
+	max-width: 600px;
+	align: center; 
+	margin-left:auto; 
+	margin-right:auto;'
+  }
+ 

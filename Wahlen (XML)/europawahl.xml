@@ -1,0 +1,299 @@
+<BallotCardDesign>
+   <election_id>88888</election_id>
+   <election_name>Europawahl</election_name>
+   <election_day>25</election_day>
+   <election_month>Mai</election_month>
+   <election_year>2014</election_year>
+   <design>
+   	  <property key="VOTESPROKANDIDAT">1</property>
+   	  <property key="MANUELLESUNGUELTIG">1</property>
+   	  <property key="MAXSTIMMEN">1</property>
+   </design>
+   
+	<rules>
+		<max_vote>1</max_vote>
+	</rules>
+   
+   <parties>
+      <party id="1">CDU</party>
+      <party id="2">SPD</party>
+      <party id="3">GRÜNE</party>
+	  <party id="4">FDP</party>
+	  <party id="5">DIE LINKE</party>
+	  <party id="6">REP</party>
+	  <party id="7">Tierschutzpartei</party>
+	  <party id="8">PIRATEN</party>
+	  <party id="9">FAMILIE</party>
+	  <party id="10">FREIE WÄHLER</party>
+	  <party id="11">Volksabstimmung</party>
+	  <party id="12">PBC</party>
+	  <party id="13">ÖDP</party>
+	  <party id="14">CM</party>
+	  <party id="15">AUFR</party>
+	  <party id="16">DKP</party>
+	  <party id="17">BP</party>
+	  <party id="18">PSG</party>
+	  <party id="19">BüSo</party>
+	  <party id="20">AfD</party>
+	  <party id="21">PRO NRW</party>
+	  <party id="22">MLPD</party>
+	  <party id="23">NPD</party>
+	  <party id="24">DIE PARTEI</party>	  
+   </parties> 
+   
+   <candidates>
+	  <candidate id="101" name="Reul" prename="Herbert" partei="CDU" />
+	  <candidate id="102" name="Brok" prename="Elmar" partei="CDU" />
+	  <candidate id="103" name="Sommer" prename="Dr. Renate" partei="CDU" />
+	  <candidate id="104" name="Liese" prename="Dr. Hans-Peter" partei="CDU" />
+	  <candidate id="105" name="Verheyen" prename="Sabine" partei="CDU" />
+	  <candidate id="106" name="Pieper" prename="Dr. Markus" partei="CDU" />
+	  <candidate id="107" name="Voss" prename="Axel" partei="CDU" />
+	  <candidate id="108" name="Florenz" prename="Karl-Heinz" partei="CDU" />
+	  <candidate id="109" name="Radtke" prename="Dennis" partei="CDU" />
+	  <candidate id="110" name="Duhme" prename="Elke" partei="CDU" />
+   
+	  <candidate id="201" name="Schulz" prename="Martin" partei="SPD" />
+	  <candidate id="202" name="Sippel" prename="Birgit" partei="SPD" />
+	  <candidate id="203" name="Bullmann" prename="Udo" partei="SPD" />
+	  <candidate id="204" name="Westphal" prename="Kerstin" partei="SPD" />
+	  <candidate id="205" name="Lange" prename="Bernd" partei="SPD" />
+	  <candidate id="206" name="Gebhardt" prename="Evelyne" partei="SPD" />
+	  <candidate id="207" name="Geier" prename="Jens" partei="SPD" />
+	  <candidate id="208" name="Steinruck" prename="Jutta" partei="SPD" />
+	  <candidate id="209" name="Ertug" prename="Ismail" partei="SPD" />
+	  <candidate id="210" name="Kaufmann" prename="Dr. Sylvia-Yvonne" partei="SPD" />
+	  
+	  <candidate id="301" name="Harms" prename="Rebecca" partei="GRÜNE" />
+	  <candidate id="302" name="Giegold" prename="Sven" partei="GRÜNE" />
+	  <candidate id="303" name="Keller" prename="Franziska" partei="GRÜNE" />
+	  <candidate id="304" name="Bütikofer" prename="Reinhard" partei="GRÜNE" />
+	  <candidate id="305" name="Lochbihler" prename="Barbara" partei="GRÜNE" />
+	  <candidate id="306" name="Albrecht" prename="Jan Philipp" partei="GRÜNE" />
+	  <candidate id="307" name="Trüpel" prename="Dr. Helga" partei="GRÜNE" />
+	  <candidate id="308" name="Häusling" prename="Martin" partei="GRÜNE" />
+	  <candidate id="309" name="Reintke" prename="Theresa" partei="GRÜNE" />
+	  <candidate id="310" name="Cramer" prename="Michael" partei="GRÜNE" />
+	  
+	  <candidate id="401" name="Graf Lambsdorff" prename="Alexander" partei="FDP" />
+	  <candidate id="402" name="Theurer" prename="Michael" partei="FDP" />
+	  <candidate id="403" name="Meißner" prename="Gesine" partei="FDP" />
+	  <candidate id="404" name="Hirsch" prename="Nadja" partei="FDP" />
+	  <candidate id="405" name="Klinz" prename="Dr. Wolf" partei="FDP" />
+	  <candidate id="406" name="Reimers" prename="Britta" partei="FDP" />
+	  <candidate id="407" name="Thien" prename="Alexandra" partei="FDP" />
+	  <candidate id="408" name="Bonnet" prename="Cécile" partei="FDP" />
+	  <candidate id="409" name="Alt" prename="Renata" partei="FDP" />
+	  <candidate id="410" name="Kriesch" prename="Arian" partei="FDP" />
+	  
+	  <candidate id="501" name="Zimmer" prename="Gabriele" partei="DIE LINKE" />
+	  <candidate id="502" name="Händel" prename="Thomas" partei="DIE LINKE" />
+	  <candidate id="503" name="Ernst" prename="Cornelia" partei="DIE LINKE" />
+	  <candidate id="504" name="Scholz" prename="Helmut" partei="DIE LINKE" />
+	  <candidate id="505" name="Lösing" prename="Sabine" partei="DIE LINKE" />
+	  <candidate id="506" name="De Masi" prename="Fabio" partei="DIE LINKE" />
+	  <candidate id="507" name="Michels" prename="Martina" partei="DIE LINKE" />
+	  <candidate id="508" name="Schirdewan" prename="Martin" partei="DIE LINKE" />
+	  <candidate id="509" name="Leonidakis" prename="Sophia" partei="DIE LINKE" />
+	  <candidate id="510" name="Fiedler" prename="Malte" partei="DIE LINKE" />					  
+
+	  <candidate id="601" name="Mack" prename="Hermann" partei="REP" />
+	  <candidate id="602" name="Maniera" prename="Andrè" partei="REP" />
+	  <candidate id="603" name="Panetta" prename="Rodolfo" partei="REP" />
+	  <candidate id="604" name="Förster" prename="Bert Rüdiger" partei="REP" />
+	  <candidate id="605" name="Röbosch" prename="Alois" partei="REP" />
+	  <candidate id="606" name="Müller" prename="Heiko" partei="REP" />
+	  <candidate id="607" name="Marsch" prename="Volker" partei="REP" />
+	  <candidate id="608" name="Hock" prename="Manfred" partei="REP" />
+	  <candidate id="609" name="Eser" prename="Gerhard" partei="REP" />
+	  <candidate id="610" name="Haugk" prename="Matthias" partei="REP" />
+
+	  <candidate id="701" name="Eck" prename="Stefan" partei="Tierschutzpartei" />
+	  <candidate id="702" name="Molitor" prename="Carsten" partei="Tierschutzpartei" />
+	  <candidate id="703" name="Zimmer" prename="Dr. Peter" partei="Tierschutzpartei" />
+	  <candidate id="704" name="Streit" prename="Nancy" partei="Tierschutzpartei" />
+	  <candidate id="705" name="Mallon" prename="Bernd" partei="Tierschutzpartei" />
+	  <candidate id="706" name="Nauheimer" prename="Barbara" partei="Tierschutzpartei" />
+	  <candidate id="707" name="Jung" prename="Peter" partei="Tierschutzpartei" />
+	  <candidate id="708" name="Wester" prename="Horst" partei="Tierschutzpartei" />
+	  <candidate id="709" name="Kuppinger" prename="Dr. Petra" partei="Tierschutzpartei" />
+	
+	  <candidate id="801" name="Reder" prename="Julia" partei="PIRATEN" />
+	  <candidate id="802" name="Amanatides" prename="Fotios" partei="PIRATEN" />
+	  <candidate id="803" name="Domscheit" prename="Anke" partei="PIRATEN" />
+	  <candidate id="804" name="Kramm" prename="Bruno" partei="PIRATEN" />
+	  <candidate id="805" name="Helm" prename="Anne" partei="PIRATEN" />
+	  <candidate id="806" name="Engels" prename="Gregory" partei="PIRATEN" />
+	  <candidate id="807" name="Seipenbusch" prename="Jens" partei="PIRATEN" />
+	  <candidate id="808" name="Bordelais" prename="Gilles" partei="PIRATEN" />
+	  <candidate id="809" name="Pöser" prename="Martina" partei="PIRATEN" />
+	  <candidate id="810" name="Schiffer" prename="Patrick" partei="PIRATEN" />
+
+	  <candidate id="901" name="Gericke" prename="Arne" partei="FAMILIE" />
+	  <candidate id="902" name="Hartmann" prename="Maria" partei="FAMILIE" />
+	  <candidate id="903" name="Hauk" prename="Albrecht" partei="FAMILIE" />
+	  <candidate id="904" name="Sikora" prename="Kosima" partei="FAMILIE" />
+	  <candidate id="905" name="Lahann" prename="Werner" partei="FAMILIE" />
+	  <candidate id="906" name="Mütsch" prename="Thomas" partei="FAMILIE" />
+	  <candidate id="907" name="Zentgraf" prename="Klemens" partei="FAMILIE" />
+	  <candidate id="908" name="Nickel" prename="Margarete" partei="FAMILIE" />
+	  <candidate id="909" name="Schäfer" prename="Andre" partei="FAMILIE" />
+	  <candidate id="910" name="Hagedorn" prename="Angelika" partei="FAMILIE" />				  
+
+	  <candidate id="1001" name="Müller" prename="Ulrike" partei="FREIE WÄHLER" />
+	  <candidate id="1002" name="Wiegand" prename="Wolf Achim" partei="FREIE WÄHLER" />
+	  <candidate id="1003" name="Petry" prename="Manfred" partei="FREIE WÄHLER" />
+	  <candidate id="1004" name="Hudyma" prename="Christiane-Maria" partei="FREIE WÄHLER" />
+	  <candidate id="1005" name="Voß" prename="Philipp" partei="FREIE WÄHLER" />
+	  <candidate id="1006" name="Kohls" prename="Gerrit" partei="FREIE WÄHLER" />
+	  <candidate id="1007" name="Stimpfig" prename="Jörg" partei="FREIE WÄHLER" />
+	  <candidate id="1008" name="Klix" prename="Harald" partei="FREIE WÄHLER" />
+	  <candidate id="1009" name="von Bechtholsheim" prename="Susanne" partei="FREIE WÄHLER" />
+	  <candidate id="1010" name="Holzapfel" prename="Dietmar" partei="FREIE WÄHLER" />
+
+	  <candidate id="1101" name="Fleck" prename="Dr. Helmut" partei="Volksabstimmung" />
+	  <candidate id="1102" name="Plantiko" prename="Claus" partei="Volksabstimmung" />
+	  <candidate id="1103" name="Heerligs" prename="Angelika" partei="Volksabstimmung" />
+	  <candidate id="1104" name="Dreischer" prename="Dr. Artur" partei="Volksabstimmung" />
+	  <candidate id="1105" name="Weifenbach" prename="Marcel" partei="Volksabstimmung" />
+	  <candidate id="1106" name="Reh" prename="Stefan" partei="Volksabstimmung" />
+	  <candidate id="1107" name="Oel" prename="Hans-Albrecht" partei="Volksabstimmung" />
+	  <candidate id="1108" name="Augustinowski" prename="Klaus" partei="Volksabstimmung" />
+	  <candidate id="1109" name="Brandt" prename="Achim" partei="Volksabstimmung" />
+	  <candidate id="1110" name="Wittka" prename="Hans-Georg" partei="Volksabstimmung" />
+
+	  <candidate id="1201" name="Schlottmann" prename="Klaus-Dieter" partei="PBC" />
+	  <candidate id="1202" name="Karstens" prename="Dr. Detleff" partei="PBC" />
+	  <candidate id="1203" name="Herdt" prename="Waldemar" partei="PBC" />
+	  <candidate id="1204" name="Sodtke" prename="Michael" partei="PBC" />
+	  <candidate id="1205" name="Steffens" prename="Ole" partei="PBC" />
+
+	  <candidate id="1301" name="Buchner" prename="Prof. Dr. Klaus" partei="ÖDP" />
+	  <candidate id="1302" name="Frankenberger" prename="Sebastian" partei="ÖDP" />
+	  <candidate id="1303" name="Mai" prename="Susanne" partei="ÖDP" />
+	  <candidate id="1304" name="Föttinger" prename="Verena" partei="ÖDP" />
+	  <candidate id="1305" name="Behrendt" prename="Volker" partei="ÖDP" />
+	  <candidate id="1306" name="Bombeck" prename="Johannes" partei="ÖDP" />
+	  <candidate id="1307" name="Schneider" prename="Johannes" partei="ÖDP" />
+	  <candidate id="1308" name="Fischer" prename="Lucia" partei="ÖDP" />
+	  <candidate id="1309" name="Sartorius" prename="Gero" partei="ÖDP" />
+	  <candidate id="1310" name="Moseler" prename="Dr. Claudius" partei="ÖDP" />
+
+	  <candidate id="1401" name="Happel" prename="Josef" partei="CM" />
+	  <candidate id="1402" name="Rickel" prename="Thomas" partei="CM" />
+	  <candidate id="1403" name="Klein" prename="Rosalinde" partei="CM" />
+	  <candidate id="1404" name="Ried" prename="Otto" partei="CM" />
+	  <candidate id="1405" name="Rehm" prename="Berthold" partei="CM" />
+	  <candidate id="1406" name="Krafft" prename="Armin" partei="CM" />
+	  <candidate id="1407" name="Schlierer" prename="Uwe" partei="CM" />
+	  <candidate id="1408" name="Pelz" prename="Achim" partei="CM" />
+	  <candidate id="1409" name="Schmelz-Käser" prename="Anton" partei="CM" />
+
+	  <candidate id="1501" name="Meves" prename="Christa" partei="AUFR" />
+	  <candidate id="1502" name="Ragg" prename="Michael" partei="AUFR" />
+	  <candidate id="1503" name="Heepen" prename="Karin" partei="AUFR" />
+	  <candidate id="1504" name="Döbrich" prename="Martina" partei="AUFR" />
+	  <candidate id="1505" name="Burr" prename="Dieter" partei="AUFR" />
+	  <candidate id="1506" name="Hetz" prename="Friedmann" partei="AUFR" />
+	  <candidate id="1507" name="Büschkens-Schmidt" prename="Ute" partei="AUFR" />
+	  <candidate id="1508" name="Merkler" prename="Friedrich" partei="AUFR" />
+	  <candidate id="1509" name="Höhn" prename="Wolfgang" partei="AUFR" />
+	  <candidate id="1510" name="Papentin" prename="Christian" partei="AUFR" />
+
+	  <candidate id="1601" name="Hager" prename="Prof. Dr. Nina" partei="DKP" />
+	  <candidate id="1602" name="Barrios Miranda" prename="Mario" partei="DKP" />
+	  <candidate id="1603" name="Mammitzsch" prename="Siw" partei="DKP" />
+	  <candidate id="1604" name="Zeise" prename="Lucas" partei="DKP" />
+	  <candidate id="1605" name="Schnittker" prename="Karin" partei="DKP" />
+	  <candidate id="1606" name="Güngor" prename="Talip" partei="DKP" />
+	  <candidate id="1607" name="Lopau" prename="Kornelia" partei="DKP" />
+	  <candidate id="1608" name="Bigus" prename="Joachim" partei="DKP" />
+	  <candidate id="1609" name="Baum" prename="Erika" partei="DKP" />
+	  <candidate id="1610" name="Steiniger" prename="Dr. Klaus" partei="DKP" />
+
+	  <candidate id="1701" name="Weber" prename="Florian" partei="BP" />
+	  <candidate id="1702" name="Eberle" prename="Johann" partei="BP" />
+	  <candidate id="1703" name="Seiderer" prename="Dr. Hermann" partei="BP" />
+	  <candidate id="1704" name="Weiß" prename="Georg" partei="BP" />
+	  <candidate id="1705" name="Zadrosny" prename="Cornelia" partei="BP" />
+	  <candidate id="1706" name="Zirngibl" prename="Fritz" partei="BP" />
+	  <candidate id="1707" name="Späth" prename="Alois" partei="BP" />
+	  <candidate id="1708" name="Neumann" prename="Bernhard" partei="BP" />
+	  <candidate id="1709" name="Curlisca" prename="Jaroslav" partei="BP" />
+	  <candidate id="1710" name="Wagner" prename="Jürgen" partei="BP" />
+
+	  <candidate id="1801" name="Rippert" prename="Ulrich" partei="PSG" />
+	  <candidate id="1802" name="Vandreier" prename="Christoph" partei="PSG" />
+	  <candidate id="1803" name="Zimmermann-Modler" prename="Elisabeth" partei="PSG" />
+	  <candidate id="1804" name="Arens" prename="Marianne" partei="PSG" />
+	  <candidate id="1805" name="Gaisenkersting" prename="Dietmar" partei="PSG" />
+	  <candidate id="1806" name="Arens" prename="Helmut" partei="PSG" />
+	  <candidate id="1807" name="Bastian" prename="Endrik" partei="PSG" />
+
+	  <candidate id="1901" name="Zepp-LaRouche" prename="Helga" partei="BüSo" />
+	  <candidate id="1902" name="Fimmen" prename="Elke" partei="BüSo" />
+	  <candidate id="1903" name="Ossenkopp" prename="Stephan" partei="BüSo" />
+	  <candidate id="1904" name="Kruczkowski" prename="Katarzyna" partei="BüSo" />
+	  <candidate id="1905" name="Lillge" prename="Dr. Wolfgang" partei="BüSo" />
+	  <candidate id="1906" name="Perschl" prename="Josef" partei="BüSo" />
+	  <candidate id="1907" name="Mohs" prename="Hubertus" partei="BüSo" />
+	  <candidate id="1908" name="Celani" prename="Claudio" partei="BüSo" />
+	  <candidate id="1909" name="Tolksdorf" prename="Stefan" partei="BüSo" />
+	  <candidate id="1910" name="Azima" prename="Armin" partei="BüSo" />
+
+	  <candidate id="2001" name="Lucke" prename="Prof. Dr. Bernd" partei="AfD" />
+	  <candidate id="2002" name="Henkel" prename="Prof Dr. h.c. Hans-Olaf" partei="AfD" />
+	  <candidate id="2003" name="Kölmel" prename="Bernd" partei="AfD" />
+	  <candidate id="2004" name="von Storch" prename="Beatrix" partei="AfD" />
+	  <candidate id="2005" name="Starbatty" prename="Prof. Dr. Joachim" partei="AfD" />
+	  <candidate id="2006" name="Trebesius" prename="Ulrike" partei="AfD" />
+	  <candidate id="2007" name="Pretzell" prename="Marcus" partei="AfD" />
+	  <candidate id="2008" name="Jongen" prename="Dr. Marc" partei="AfD" />
+	  <candidate id="2009" name="Hampel" prename="Armin-Paulus" partei="AfD" />
+	  <candidate id="2010" name="Meuthen" prename="Dr. Jörg Hubert" partei="AfD" />
+
+	  <candidate id="2101" name="Beisicht" prename="Markus" partei="PRO NRW" />
+	  <candidate id="2102" name="Freiherr von Mengersen" prename="Frederick Christopher" partei="PRO NRW" />
+	  <candidate id="2103" name="Spiegelhoff" prename="Silwana" partei="PRO NRW" />
+	  <candidate id="2104" name="Palm" prename="Karl Wolfgang" partei="PRO NRW" />
+	  <candidate id="2105" name="Gerhardt" prename="Claudia" partei="PRO NRW" />
+	  <candidate id="2106" name="Roeseler" prename="Dominik Horst" partei="PRO NRW" />
+	  <candidate id="2107" name="Hintz" prename="Jürgen" partei="PRO NRW" />
+	  <candidate id="2108" name="Hauer" prename="Kevin Gareth" partei="PRO NRW" />
+	  <candidate id="2109" name="Heger" prename="Dr. Christoph" partei="PRO NRW" />
+	  <candidate id="2110" name="Öllig" prename="Christine" partei="PRO NRW" />
+
+	  <candidate id="2201" name="Weispfennig" prename="Peter" partei="MLPD" />
+	  <candidate id="2202" name="Gärtner" prename="Lisa" partei="MLPD" />
+	  <candidate id="2203" name="Engel" prename="Stefan" partei="MLPD" />
+	  <candidate id="2204" name="Meral" prename="Mehmet Ali" partei="MLPD" />
+	  <candidate id="2205" name="Gärtner-Engel" prename="Monika" partei="MLPD" />
+	  <candidate id="2206" name="Köroglu" prename="Münür" partei="MLPD" />
+	  <candidate id="2207" name="Schirrmacher" prename="Fred" partei="MLPD" />
+	  <candidate id="2208" name="Cenan" prename="Seyran" partei="MLPD" />
+	  <candidate id="2209" name="Willing" prename="Dirk" partei="MLPD" />
+	  <candidate id="2210" name="Urrutia Garrido" prename="Luisa Angelica" partei="MLPD" />
+
+	  <candidate id="2301" name="Voigt" prename="Udo" partei="NPD" />
+	  <candidate id="2302" name="Rose" prename="Dr. Olav" partei="NPD" />
+	  <candidate id="2303" name="Pühse" prename="Jens" partei="NPD" />
+	  <candidate id="2304" name="Meise" prename="Ariane" partei="NPD" />
+	  <candidate id="2305" name="Schreiber" prename="Peter" partei="NPD" />
+	  <candidate id="2306" name="Meenen" prename="Uwe" partei="NPD" />
+	  <candidate id="2307" name="Krieger" prename="Christina" partei="NPD" />
+	  <candidate id="2308" name="Schmidt" prename="Edda" partei="NPD" />
+	  <candidate id="2309" name="Lux" prename="Stefan" partei="NPD" />
+	  <candidate id="2310" name="Riefling" prename="Ricarda" partei="NPD" />
+       
+	  <candidate id="2401" name="Sonneborn" prename="Martin" partei="DIE PARTEI" />
+	  <candidate id="2402" name="Werner" prename="Martina" partei="DIE PARTEI" />
+	  <candidate id="2403" name="Preuß" prename="Claus-Dieter" partei="DIE PARTEI" />
+	  <candidate id="2404" name="Hintner" prename="Thomas" partei="DIE PARTEI" />
+	  <candidate id="2405" name="Behrend" prename="Georg" partei="DIE PARTEI" />
+	  <candidate id="2406" name="Gaitzsch" prename="Torsten" partei="DIE PARTEI" />
+	  <candidate id="2407" name="Fuchs" prename="David" partei="DIE PARTEI" />
+	  <candidate id="2408" name="Grupe" prename="Alexander" partei="DIE PARTEI" />
+	  <candidate id="2409" name="Fischer" prename="Leonhard Georg" partei="DIE PARTEI" />
+	  <candidate id="2410" name="Mendelsohn" prename="Peter" partei="DIE PARTEI" />
+	</candidates>
+</BallotCardDesign>

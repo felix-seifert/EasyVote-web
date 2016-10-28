@@ -1,0 +1,117 @@
+﻿<BallotCardDesign>
+   <election_id>99999</election_id>
+   <election_name>Landtagswahl Hessen</election_name>
+   <election_day>18</election_day>
+   <election_month>Januar</election_month>
+   <election_year>2009</election_year>
+   <design>
+   	  <property key="VOTESPROKANDIDAT">1</property>
+   	  <property key="ANZAHLPARTEIENGLEICHZEITIG">2</property>
+   	  <property key="MANUELLESUNGUELTIG">1</property>
+   	  <property key="MAXSTIMMEN">2</property>
+   </design>
+   
+	<rules>
+		<max_vote>2</max_vote>
+	</rules>
+
+   <parties>
+      <party id="1" partei="CDU" name="Christlich Demokratische Union Deutschlands"/>
+      <party id="2" partei="SPD" name="Sozialdemokratische Partei Deutschlands"/>
+      <party id="3" partei="FDP" name="Freie Demokratische Partei"/>
+	  <party id="4" partei="GRÜNE" name="BÜNDNIS 90/DIE GRÜNEN"/>
+	  <party id="5" partei="DIE LINKE" name="DIE LINKE"/>
+	  <party id="6" partei="REP" name="DIE REPUBLIKANER"/>
+	  <party id="7" partei="FREIE WÄHLER" name="FW FREIE WÄHLER Hessen e. V."/>
+	  <party id="8" partei="NPD" name="Nationaldemokratische Partei Deutschlands"/>
+	  <party id="9" partei="PIRATEN" name="Piratenpartei Deutschland"/>
+	  <party id="10" partei="BüSo" name="Bürgerrechtsbewegung Solidarität"/>
+   </parties>
+   
+   <candidates> 
+	  <candidate id="101" name="Klee" prename="Horst" partei="CDU"  />
+	  <candidate id="102" name="Lorenz" prename="Bernhard" partei="CDU" />
+
+	  <candidate id="201" name="David" prename="Michael" partei="SPD" />		 
+	  <candidate id="202" name="Herber" prename="Wolfgang Willhelm" partei="SPD" />
+
+	  <candidate id="301" name="Rzytki" prename="Reinhard" partei="FDP" />
+	  <candidate id="302" name="Meudt-Schmidt" prename="Milena" partei="FDP" />
+
+	  <candidate id="401" name="Waldeck" prename="Andreas" partei="GRÜNE" />
+	  <candidate id="402" name="Espenschied" prename="Astrid" partei="GRÜNE" />
+
+	  <candidate id="501" name="Bohrer" prename="Hartmut" partei="DIE LINKE" />
+	  <candidate id="502" name="Becker" prename="Jürgen" partei="DIE LINKE" />
+
+	  <candidate id="601" name="Propp" prename="Carsten" partei="REP" />
+	  <candidate id="602" name="von Tietzen und Henning" prename="Ralf" partei="REP" />
+
+	  <candidate id="1001" name="Hartmann" prename="Alexander" partei="BüSo" />
+	  <candidate id="1002" name="Lewis" prename="Christopher" partei="BüSo" />
+	</candidates>
+
+	<party_members>
+		<member id="101" name="Roland Koch" partei="CDU"  />
+		<member id="102" name="Silke Lautenschläger" partei="CDU"  />
+		<member id="103" name="Dr. Christian Wagner" partei="CDU"  />
+		<member id="104" name="Volker Bouffier" partei="CDU"  />
+		<member id="105" name="Eva Kühne-Hörmann" partei="CDU"  />
+		
+		<member id="201" name="Thorsten Schäfer-Gümbel" partei="SPD"  />
+		<member id="202" name="Andrea Ypsilanti" partei="SPD"  />
+		<member id="203" name="Reinhard Kahl" partei="SPD"  />
+		<member id="204" name="Petra Fuhrmann" partei="SPD"  />
+		<member id="205" name="Norbert Schmitt" partei="SPD"  />	
+		
+		<member id="301" name="Jörg-Uwe Hahn" partei="FDP"  />
+		<member id="302" name="Dieter Posch" partei="FDP"  />
+		<member id="303" name="Dorothea Henzler" partei="FDP"  />
+		<member id="304" name="Nicola Beer" partei="FDP"  />
+		<member id="305" name="Florian Rentsch" partei="FDP"  />	
+
+		<member id="401" name="Kordula Schulz-Asche" partei="GRÜNE"  />
+		<member id="402" name="Tarek Al-Wazir" partei="GRÜNE"  />
+		<member id="403" name="Ursula Hammann" partei="GRÜNE"  />
+		<member id="404" name="Frank-Peter Kaufmann" partei="GRÜNE"  />
+		<member id="405" name="Sarah Sorge" partei="GRÜNE"  />
+	
+		<member id="501" name="Willi van Ooyen" partei="DIE LINKE"  />
+		<member id="502" name="Mariana Schott" partei="DIE LINKE"  />
+		<member id="503" name="Janine Wißler" partei="DIE LINKE"  />
+		<member id="504" name="Dr. Ulrich Wilken" partei="DIE LINKE"  />
+		<member id="505" name="Barbara Cárdenas Alfonso" partei="DIE LINKE"  />
+
+		<member id="601" name="Haymo Hoch" partei="REP"  />
+		<member id="602" name="Olaf Enderes" partei="REP"  />
+		<member id="603" name="Michael Langer" partei="REP"  />
+		<member id="604" name="Frank Marhauer" partei="REP"  />
+		<member id="605" name="Hans-Joachim Münd" partei="REP"  />
+
+		<member id="701" name="Walter Öhlenschläger" partei="FREIE WÄHLER"  />
+		<member id="702" name="Laura Macho" partei="FREIE WÄHLER"  />
+		<member id="703" name="Lars Wicke" partei="FREIE WÄHLER"  />
+		<member id="704" name="Elke Victor" partei="FREIE WÄHLER"  />
+		<member id="705" name="Rainer Drephal" partei="FREIE WÄHLER"  />
+
+		<member id="801" name="Jörg Krebs" partei="NPD"  />
+		<member id="802" name="Volker Sachs" partei="NPD"  />
+		<member id="803" name="Ursula Schäfer" partei="NPD"  />
+		<member id="804" name="Daniel Lachmann" partei="NPD"  />
+		<member id="805" name="Daniel Knebel" partei="NPD"  />
+
+		<member id="901" name="Nicole Hornung" partei="PIRATEN"  />
+		<member id="902" name="Thorsten Wirth" partei="PIRATEN"  />
+		<member id="903" name="Simon Klages" partei="PIRATEN"  />
+		<member id="904" name="Christian Hufgard" partei="PIRATEN"  />
+		<member id="905" name="Hauke Kruppa" partei="PIRATEN"  />
+
+		<member id="1001" name="Alexander Hartmann" partei="BüSo"  />
+		<member id="1002" name="Klaus Fimmen" partei="BüSo"  />
+		<member id="1003" name="Andrea Andromidas" partei="BüSo"  />
+		<member id="1004" name="Peter Hummel" partei="BüSo"  />
+		<member id="1005" name="Hans Müller" partei="BüSo"  />
+
+   </party_members>
+   
+</BallotCardDesign>
