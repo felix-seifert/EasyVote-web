@@ -28,7 +28,8 @@ if(!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW']) ||
     <label for="wahl">1. Wahlart auswählen:</label>
 		<select name="wahlart" size="1" id="wahl"> 
 			<option value="europawahl">Europawahl</option>
-			<option value="kommunalwahl">Kommunalwahl</option>
+            <option value="kommunalwahl">Kommunalwahl</option>
+            <option value="kommunalwahl_karlsruhe">Kommunalwahl Karlsruhe</option>
 			<option value="landtagswahl">Landtagswahl</option>
 		</select>
     <br />

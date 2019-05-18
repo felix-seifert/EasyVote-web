@@ -5,12 +5,16 @@
 		//Wenn der Button "Zurück" angeklickt wurde, werden die verschiedenen Sessions wiederhergestellt (vote, alert und gueltig) und die vorherige Seite wird geladen
 		if(isset($_POST['back'])){	 
 			if(isset($_SESSION['wahl'])){
-				if($_SESSION['wahl'] == 'invalid'){
-					unset($_SESSION['wahl']);
-				}else{
-					$_SESSION['vote'] = $_SESSION['wahl'];
-					unset($_SESSION['wahl']);
+				if($_SESSION['wahl'] != 'invalid'){
+                    if($_SESSION['aktive_wahl'] == '76131' && count($_SESSION['wahl']) == 1
+                                && count(explode('_', $_SESSION['wahl'][0])) == 2) {
+                        $_SESSION['party_elected'] = $_SESSION['wahl'];
+                    }
+                    else {
+                        $_SESSION['vote'] = $_SESSION['wahl'];
+                    }
 				}
+                unset($_SESSION['wahl']);
 			}
 			if(isset($_SESSION['save_alert'])){
 				$_SESSION['alert'] = $_SESSION['save_alert'];

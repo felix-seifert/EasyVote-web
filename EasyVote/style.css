@@ -2,9 +2,15 @@
 
 /* In diesem Abschnitt werden die Flexboxen definiert, die dafür sorgen, dass das Seitendesign korrekt dargestellt wird ist!*/  
 
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body{
 	font-family: Arial,sans-serif;
-    margin: 0; padding: 0;
+    margin: 0 0 40px;
+	padding: 0;
     min-width: 50em;
 }
 
@@ -69,7 +75,6 @@ body{
 }
 
 #complete{
-	position: absolute;
 	top: 0px;
 	width: 100%;
 }
@@ -78,7 +83,7 @@ body{
 	-webkit-flex-basis: 20%;
     flex-basis: 20%;
 	min-width: 200px;
-	padding:3px;
+	padding: 3px 3px 3px 4px;
 	font-size: 0.9em; 
 	background:-webkit-linear-gradient(#BEDBEE, white); /* für ältere Versionen von Safari & Chrome */
 	background:-o-linear-gradient(#BEDBEE, white); /* für ältere Versionen von Opera */
@@ -400,12 +405,22 @@ body{
 	padding: 0em 3em 1em 3em;
 	font-size: 1em;
   }
+
+  .print > #Inhalt p {
+	  width: 95%;
+	  margin: 15px 15px 15px 2%;
+	  padding: 0px;
+  }
   
   div#Navigation button {
 	font-weight: bold;
 	text-decoration: none;
   }
-  
+
+  div#Navigation button:disabled {
+	  opacity: 0.7;
+	  filter: alpha(opacity=70);
+  }
   
   div#Navigation li {
     list-style: none;
@@ -422,23 +437,42 @@ body{
   }
   
   div#Startseite a:link{
-	font-weight: bold;
 	color: #FFFFFF;
 	text-decoration: none;
 	text-align: center;
+  }
+
+  div#Startseite > p > a:link, div#Startseite > p > a, #kkw a, #kkw a:link {
+	  color: blue;
   }
   
    div#Startseite li{
 	font-size: 1.15em;
   }
-  
-  div#Startseite  h1{
+
+   div#Startseite p {
+	   padding: 10px 2%;
+   }
+
+  div#Startseite  h1, div#Startseite  h2 {
 	font-weight: normal;
-	margin-top: -50px;
 	margin-left: 2%;
-	font-size: 2.5em;
   }
-  
+
+  div#Startseite  h1 {
+	  margin-top: -30px;
+	  font-size: 2.5em;
+  }
+
+  div#Startseite  h2 {
+	  font-size: 1.5em;
+  }
+
+  div#Startseite #kkw li {
+	  font-size: 1em;
+	  margin-left: 10px;
+  }
+
   div#Header1 p{
 	padding: 3px 10px;
 	font-size: 1.2em;
@@ -463,6 +497,11 @@ body{
 	padding: 7px;
 	font-size: 18px;
   }
+
+  div#Info p > strong, div#Info .info-table strong {
+	  padding: 0;
+	  font-size: 17px;
+  }
   
   div#Inhalt del{
 	color: #FF0000;
@@ -483,5 +522,139 @@ body{
 	align: center; 
 	margin-left:auto; 
 	margin-right:auto;'
+  }
+
+  .party-button-div {
+	  position: relative;
+	  display: inline-block;
+  }
+
+  .candidate-td {
+	  position: relative;
+  }
+
+  .party-button-div .party-button-disabled {
+	  opacity: 0.5;
+	  filter: alpha(opacity=50);
+  }
+
+  .tooltip {
+	  visibility: hidden;
+	  background-color: #366581;
+	  color: #fff;
+	  text-align: center;
+	  border-radius: 6px;
+	  padding: 5px 0;
+	  position: absolute;
+	  z-index: 1;
+	  top: 1px;
+	  left: 110%;
+	  font-size: 15px;
+	  opacity: 0;
+	  -webkit-transition: opacity 1s;
+	  -moz-transition: opacity 1s;
+	  -ms-transition: opacity 1s;
+	  -o-transition: opacity 1s;
+	  transition: opacity 1s;
+  }
+
+  .party-button-div .tooltip {
+	  width: 260px;
+  }
+
+  .candidate-td .tooltip {
+	  width: 260px;
+	  margin-top: -14px;
+  }
+
+  .view_votes_button {
+	  display: inline-block;
+	  position: relative;
+	  width: 100%;
+  }
+
+  .view_votes_button .tooltip {
+	  width: 220px;
+	  margin-left: -35px;
+	  margin-top: -10px;
+  }
+
+  .party-button-div:hover .tooltip, .candidate-td:hover .tooltip, .view_votes_button:hover .tooltip {
+	  visibility: visible;
+	  opacity: 1;
+  }
+
+  .party-button-div .tooltip::after, .candidate-td .tooltip::after, .view_votes_button .tooltip:after {
+	  content: "";
+	  position: absolute;
+	  top: 50%;
+	  right: 100%;
+	  margin-top: -5px;
+	  border-width: 5px;
+	  border-style: solid;
+	  border-color: transparent #366581 transparent transparent;
+  }
+
+  #summary-columns {
+	  -webkit-column-count: 3;
+	  -moz-column-count: 3;
+	  column-count: 3;
+	  width: 95%;
+	  margin: 15px 15px 15px 2%;
+	  color: #366581;
+  }
+
+  #summary-columns .row {
+	  float: none;
+	  font-size: 17px;
+  }
+
+  #summary-columns .row table {
+	  margin: 0;
+	  width: 100%;
+  }
+
+  #summary-columns .party-complete-no-break {
+	  break-inside: avoid;
+  }
+
+  #summary-columns .party-row {
+	  font-weight: bold;
+  }
+
+  #summary-columns .candidate-row {
+	  border-top: 1px solid #366581;
+	  border-bottom: 1px solid #366581;
+	  margin-bottom: -1px;
+  }
+
+  #summary-columns .candidate-row td:first-child {
+	  width: 20%;
+  }
+
+  #summary-columns .candidate-row td:nth-child(2) {
+	  width: 70%;
+  }
+
+  #summary-columns .candidate-row td:last-child {
+	  width: 10%;
+	  text-align: right;
+  }
+
+  footer {
+	  position: absolute;
+	  left: 50%;
+	  bottom: 0;
+	  height: 40px;
+  }
+
+  footer > div {
+	  left: -50%;
+  }
+
+  footer a, footer a:link {
+	  color: blue;
+	  margin: 5px;
+	  font-size: 0.7em;
   }
  

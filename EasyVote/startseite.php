@@ -6,11 +6,14 @@
   <?php
   
 	//Setzt eine Session für die ausgewählte Spracheinstellung
+	/* Disable for the municipal elections Karlruhe
 	if(isset($_POST['en'])){
 		$_SESSION['lang'] = 'en/';
 	} else{
 		$_SESSION['lang'] = 'de/';
-	}
+	} */
+
+	$_SESSION['lang'] = 'de/'; // --> only German
 	
 	$wahlNavi = new WahlNavi();
 	$_SESSION['aktive_wahl'] = $wahlNavi->get_aktive_wahl();
@@ -27,12 +30,13 @@
 	echo "<br><br>"
 	
 	?>
-	
+
 	<!-- Auswahl der Spracheinstellung durch die Buttons mit den Länderflaggen -->
-	<form method="post" action='index.php'>
+	<!-- Disable for the munipal elections Karlsruhe
+      <form method="post" action='index.php'>
 		<center><button type="submit" name='de' value='deutsch'><img src='bilder/de2.png' width ='50px' alt='deutsch'></button>
 		<button type="submit" name='en' value='english'><img src='bilder/en2.png' width ='50px' alt='english'></button> </center>
-	</form>  
+	</form> -->
 	
 	
   </div>

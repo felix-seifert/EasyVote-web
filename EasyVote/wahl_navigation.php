@@ -1,5 +1,6 @@
 <?php
 require_once('wahlen/Kommunalwahl.php');
+require_once('wahlen/KommunalwahlKarlsruhe.php');
 require_once('wahlen/Europawahl.php');
 require_once('wahlen/Landtagswahl.php');
 require_once('wahlen/Wahl.php');
@@ -33,18 +34,18 @@ class WahlNavi
 		{
 			case('0'):
 				break;
-			case ('54321'):
-				return new Kommunalwahl();
-				break;
-					
+            case ('54321'):
+                return new Kommunalwahl();
+                break;
+            case ('76131'):
+                return new KommunalwahlKarlsruhe();
+                break;
 			case ('88888'):
 				return new Europawahl();
 				break;
-					
 			case ('99999'):
 				return new Landtagswahl();
 				break;
-				
 			default: echo 'Fehler!';
 				break;
 		}
@@ -57,18 +58,18 @@ class WahlNavi
 		
 		switch($wahl_id)
 		{
-			case ('54321'):
-				return 'Kommunalwahl';
-				break;
-					
+            case ('54321'):
+                return 'Kommunalwahl';
+                break;
+            case ('76131'):
+                return 'KommunalwahlKarlsruhe';
+                break;
 			case ('88888'):
 				return 'Europawahl';
 				break;
-					
 			case ('99999'):
 				return 'Landtagswahl';
 				break;
-				
 			default: echo 'Fehler!';
 				break;
 		}
@@ -77,18 +78,18 @@ class WahlNavi
 	//In dieser Methode wird der Dateiname ausgelesen und die ID der Wahl zurückgegeben
 	function get_wahlID($filename){
 		switch($filename){
-			case ('kommunalwahl'):
-				return '54321';		
-				break;
-			
+            case ('kommunalwahl'):
+                return '54321';
+                break;
+            case ('kommunalwahl_karlsruhe'):
+                return '76131';
+                break;
 			case ('europawahl'):
 				return '88888';
 				break;
-			
 			case ('landtagswahl'):
 				return '99999';
 				break;
-			
 			default: echo 'Fehler!';
 				break;
 		}
@@ -185,11 +186,10 @@ class WahlNavi
 	function createPDF($wahlcode){
 		$this->aktuelleWahl->makePDF($wahlcode);
 	}
-	
-	//Erzeugt eine Vorschau der Wahl des Benutzers auf der letzten Seite
-	function showWahl($wahlcode){
-		$this->aktuelleWahl->show_wahl($wahlcode);
-	}
-	
+
+    //Erzeugt eine Vorschau der Wahl des Benutzers auf der letzten Seite
+    function showWahl($wahlcode){
+        $this->aktuelleWahl->show_wahl($wahlcode);
+    }
 }
 ?>

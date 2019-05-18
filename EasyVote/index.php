@@ -8,7 +8,7 @@ session_start();
 <div id="headerForm">
 	
 	<div id="Header3"></div>
-	<div id="Header2"><?php require_once('header2.php');?></div>
+	<div id="Header2" style="background: #BEDBEE;"><?php require_once('header2.php');?></div>
 	<?php require_once('header.php');?>
 </div>
 
@@ -16,4 +16,5 @@ session_start();
   <div id="Info"><?php require_once("nav_right_info.php"); ?></div>
   <div id="Startseite"><?php require_once("startseite.php"); ?></div>
 </div>
+<footer><?php require_once("footer.php"); ?></footer>
 </html>

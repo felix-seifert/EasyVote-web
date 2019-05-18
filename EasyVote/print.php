@@ -13,7 +13,7 @@
 <div id="complete">
 		<div id="main">
 	  <div id="Info"><?php require_once("nav_right_info_print.php"); ?></div>
-	  <div id="Inhalt" ><?php require_once("wahlzettel.php"); ?></div>
+	  <div id="Inhalt" class="print"><?php require_once("wahlzettel.php"); ?></div>
 	  <div id="Navigation"><?php require_once("nav_left_print.php"); ?></div>
 	</div>
 	
@@ -22,5 +22,5 @@
 		<div id="Header2"></div>	
 	</div>
 </div>
-
+<footer><?php require_once("footer.php"); ?></footer>
 </html>
