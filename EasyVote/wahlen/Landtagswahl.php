@@ -5,7 +5,7 @@ require_once('Wahl_Interface.php');
 class Landtagswahl extends Wahl implements Wahl_Interface
 {
 
-	function Landtagswahl(){
+	function __construct(){
 		$this->xmlFile = 'wahlen/xmlFiles/landtagswahl.xml';
 		$this->database = 'landtagswahl';
 	}

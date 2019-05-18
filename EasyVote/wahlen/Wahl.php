@@ -17,7 +17,7 @@ class Wahl
 	private $table = 'wahlen';
 
 	
-	function Wahl(){}
+	function __construct(){}
 
 	//Liest den Tag, den Monat und das Jahr der Wahl aus der .xml-Datei aus und liefert es als Datum zurück
 	function get_date(){

@@ -6,7 +6,7 @@ require_once('Wahl_Interface.php');
 class Europawahl extends Wahl implements Wahl_Interface
 {
 	//Setzt die zu Ladende .xml-Datei
-	function Europawahl()
+	function __construct()
 	{
 		$this->xmlFile = 'wahlen/xmlFiles/europawahl.xml';
 		$this->database = 'europawahl';

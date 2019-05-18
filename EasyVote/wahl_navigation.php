@@ -18,7 +18,7 @@ class WahlNavi
 	private $aktuelleWahl;
 
 	//Konstruktor der WahlNavi-Klasse
-	function WahlNavi(){
+	function __construct(){
 		if($this->get_wahl() != ""){
 			$this->aktuelleWahl = $this->get_wahl(); 	//wenn es eine aktive Wahl gibt, wird diese hier der Variable $aktuelleWahl zugewiesen
 		}

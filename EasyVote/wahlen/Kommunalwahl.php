@@ -6,7 +6,7 @@ require_once('Wahl_Interface.php');
 class Kommunalwahl extends Wahl implements Wahl_Interface
  {
  
-	function Kommunalwahl(){
+	function __construct(){
 		$this->xmlFile = 'wahlen/xmlFiles/kommunalwahl.xml';
 		$this->database = 'kommunalwahl';
 	}
